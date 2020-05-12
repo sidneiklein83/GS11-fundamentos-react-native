@@ -18,12 +18,12 @@ export const ProductList = styled(FlatList)`
   padding: 0 10px;
 `;
 
+// removido flex: 1;
 export const Product = styled.View`
   background: #fff;
   padding: 15px 10px;
   border-radius: 5px;
   margin: 5px;
-  flex: 1;
   flex-direction: row;
 `;
 
